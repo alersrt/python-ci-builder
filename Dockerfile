@@ -4,6 +4,7 @@ RUN apt-get update && apt-get install -y \
     ca-certificates \ 
     bash \
     git \
+    zip \
     make \
     curl \
     rsync \ 
