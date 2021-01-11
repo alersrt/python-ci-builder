@@ -1,14 +1,14 @@
 FROM python:3.8
 RUN apt-get update && apt-get install -y \
-    openssh-clients \
+    openssh-client \
     ca-certificates \ 
     bash \
     git \
     make \
     curl \
     rsync \ 
-    protobuf \
-    openssl-devel \
+    protobuf-compiler \
+    openssl \
     util-linux \
     && update-ca-trust
 
