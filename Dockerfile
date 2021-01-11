@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
     protobuf-compiler \
     openssl \
     util-linux \
-    && update-ca-trust
+    && update-ca-certificates
 
 COPY Dockerfile /Dockerfile
 LABEL org.label-schema.docker.dockerfile="/Dockerfile" \
